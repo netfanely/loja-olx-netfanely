@@ -26,12 +26,15 @@ nav ul li:hover {transition:all 0.5s; border-top:3px solid #fff;background:#8000
 
 #bodyleft{margin-top:-10px; float:left; width:68%;padding:1%; background:#fff}
 #bodyleft h3{margin-top:10px; text-shadow: 5px 5px 5px #000; padding-left:3%; line-height:40px; border-radius:3px; background:#400040;color:#fff;height:40px}
-#bodyleft img {width:80%;height:250px}
+#bodyleft img {width:100%;float:center;height:250px}
 #bodyleft ul{list-style-type:none; margin-top:10px; padding:1%}
 #bodyleft ul li{float:left; width:32%; height:300px}
 #bodyleft ul li a{text-align:center; font-size:12px; text-decoration:none; color:#000};
 /*#bodyleft ul li a img{width:80%; height:100px}*/
 #bodyleft ul li:hover{border-radius:3px; border:2px solid #400040}
+#bodyleft h5{font-size:16px;  line-height:40px; text-align:center}
+#bodyleft h4{color:#009}
+
 
 
 #bodyright{margin-top:-10px; float:left; width:29%; background:#fff; padding:1% 1% 0% 0%}
