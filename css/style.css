@@ -1,0 +1,43 @@
+*{margin:0;padding:0; font-family:Verdana, Geneva, sans-serif}
+body{background:#e6e6e6}
+
+header{width:100%; height:110px; background:#8A238D} /*morado*/
+#logo{width:20%;height:110px; float:left}
+#logo img{width:75%;height:100px; margin-left:20%; margin-top:10px}
+
+#link{width:80%; float:left}
+#link ul{list-style-type:none; float:right; margin-right:20px}
+#link ul li{float:left; margin-left:15px; line-height:30px}
+#link ul li a {text-decoration:none; color:#fff; font-size:14px}
+
+#search input[type=text]{margin-top:10px; border-top-left-radius:3px;border-bottom-left-radius:3px;width:50%;height:40px; outline:none; border-width:0px; padding-left:2%}
+#search input[type=submit]{color:#fff; background:#D631DB;border-radius:3px;border-top-right-radius:3px;width:10%;height:40px; outline:none; border-width:0px; font-weight:bold}
+#search button{color:#fff; background:#D631DB;border-top-right-radius:3px;border-bottom-right-radius:3px;width:10%;height:40px; outline:none; border-width:0px; font-weight:bold}
+
+nav{width:100%; background:#4B0947;height:45px}
+nav ul{list-style-type:none; padding-ledt:2% }
+nav ul li{height:45px; float:left; width:16%; text-align:center; line-height:45px}
+nav ul li a { text-decoration:none;color:#fff; font-size:14px}
+nav ul li:hover {transition:all 0.5s; border-top:3px solid #fff;background:#800080}
+
+#bodyleft1{margin-top:-10px; float:left; width:68%;padding:1%; background:#fff}
+#bodyleft1 h2 {text-shadow:5px 5px 5px #000;background:#400040;height:40px;color:#fff;text-align:center;}
+#bodyleft1 img {width:100%;height:350px} /*100% 350*/
+
+#bodyleft{margin-top:-10px; float:left; width:68%;padding:1%; background:#fff}
+#bodyleft h3{margin-top:10px; text-shadow: 5px 5px 5px #000; padding-left:3%; line-height:40px; border-radius:3px; background:#400040;color:#fff;height:40px}
+#bodyleft img {width:80%;height:250px}
+#bodyleft ul{list-style-type:none; margin-top:10px; padding:1%}
+#bodyleft ul li{float:left; width:32%; height:300px}
+#bodyleft ul li a{text-align:center; font-size:12px; text-decoration:none; color:#000};
+/*#bodyleft ul li a img{width:80%; height:100px}*/
+#bodyleft ul li:hover{border-radius:3px; border:2px solid #400040}
+
+
+#bodyright{margin-top:-10px; float:left; width:29%; background:#fff; padding:1% 1% 0% 0%}
+#bodyright h3{text-shadow: 5px 5px 5px #000; padding-left:5%; line-height:40px; border-radius:3px; background:#400040;color:#fff;height:40px}
+#bodyright ul{list-style-type:none; margin-top:10px}
+#bodyright ul li {margin-bottom:10px;width:100%;height:150px}
+#bodyright ul li img{width:100%;height:150px;border-radius:3px}
+
+
